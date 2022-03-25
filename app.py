@@ -26,16 +26,16 @@ if (title != 'Billie Jean...') and (repeat == True):
     # ---------------------------- The code --------------------------------------------------
 
 
-    hot100 = pd.read_csv('../data/100hot_clusters_dbscan.csv', index_col=0)
-    nothot = pd.read_csv('../data/nothot_clusters_dbscan.csv', index_col=0)
+    hot100 = pd.read_csv('data/100hot_clusters_dbscan.csv', index_col=0)
+    nothot = pd.read_csv('data/nothot_clusters_dbscan.csv', index_col=0)
     sp_jzar = spoty_jzar.Spoty_jzar()
 
     #Retrieve the transformer
-    filename = "../transformer/scaler.pickle" # Path with filename
+    filename = "transformer/scaler.pickle" # Path with filename
     scaler = cluster_jzar.load_pickle(filename)
 
     # Retrieve the model 
-    filename = "../model/dbscan.pickle" # Path with filename
+    filename = "model/dbscan.pickle" # Path with filename
     dbscan = cluster_jzar.load_pickle(filename)
 
 

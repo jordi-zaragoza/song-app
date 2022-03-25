@@ -20,7 +20,7 @@ You can find the app at https://dashboard.heroku.com/apps/song-app-jzar
 ## Databases
 
 - I used a scrapper to get the 100 hot songs from 
-- For the big dataset I used https://www.kaggle.com/datasets/rodolfofigueroa/spotify-12m-songs
+- For the big dataset I used https://song-app-jzar.herokuapp.com/
 
 ## Requirements
 

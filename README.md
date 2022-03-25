@@ -2,7 +2,7 @@
 
 ## Overview
 I created an App song recommender based on the features of the songs. 
-You can find the app at https://dashboard.heroku.com/apps/song-app-jzar
+You can find the app at https://song-app-jzar.herokuapp.com/
 
 
 
